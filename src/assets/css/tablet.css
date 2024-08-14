@@ -1,0 +1,56 @@
+@media (min-width: 481px) and (max-width: 899px) {
+    .landing-page-carousel{
+        height: 555px;
+        background-color: #F1F8FF;
+    }
+
+    .services{
+        position: relative;
+        width: 100vw;
+        padding-top: 148px;
+        padding-bottom: 150px;
+    }
+
+    .our-story-pane{
+        background-color: #F1F8FF;
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .channels-pane{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .reviews-pane{
+        padding-top: 140px;
+        padding-bottom: 140px;
+    }
+
+    .get-started{
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background-color: #25F1CC;
+    }
+
+    footer{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .login-form-section{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .landing-page-carousel-caption{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        /* padding-left: 50px; */
+        /* background-color: #25F1CC; */
+    }
+}
