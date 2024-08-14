@@ -11,7 +11,7 @@ type Props = {
     reviewBy: string
 }
 
-const Review: React.FC<Props> = ({title, rating, date, review, reviewBy})=>{
+const Review: React.FC<Props> = ({title, date, review, reviewBy})=>{
     return <Container className="my-4 default-text-css">
         <Row>
             <h6><b>{title}</b></h6>

@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from "react";
-import { Route, Routes, Navigate } from "react-router-dom";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion"; 
 
 import HomePage from "./pages/HomePage";
 
 const ARoutes: React.FC = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false)
-  const [dataLoaded, setDataLoaded] = useState(false)
+//   const [isLoggedIn, setIsLoggedIn] = useState(false)
+//   const [dataLoaded, setDataLoaded] = useState(false)
 
   return <AnimatePresence>
               <Routes>

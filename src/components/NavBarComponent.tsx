@@ -3,7 +3,6 @@ import { Container, Nav, NavDropdown, Navbar } from "react-bootstrap";
 import SecondaryButton from "./widgets/SecondaryButton";
 // @ts-ignore
 import { ROUTES } from "../apis/endpoints";
-import { Link } from "react-router-dom";
 
 const NavBarComponent: React.FC = ()=>{
     return <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
