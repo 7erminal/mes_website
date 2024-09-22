@@ -1,7 +1,10 @@
-const authenticationBaseUrl = `http://localhost:8080`;
-const customerBaseUrl = `http://localhost:8083`;
+// const authenticationBaseUrl = `http://localhost:8080`;
+// const customerBaseUrl = `http://localhost:8083`;
+const authenticationBaseUrl = `http://185.249.227.127:8010`;
+const customerBaseUrl = `http://185.249.227.127:8013`;
+const businessBaseUrl = `http://185.249.227.127:8011`
 // const customerPortalUrl = 'http://localhost:5174';
-const customerPortalUrl = 'http://15.236.128.186:9001';
+const customerPortalUrl = 'http://185.249.227.127:9001';
 
 const authenticationApiEndpoints = `${authenticationBaseUrl}/v1`;
 const customerApiEndpoints = `${customerBaseUrl}/v1`;
