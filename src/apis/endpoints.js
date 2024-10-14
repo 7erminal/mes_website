@@ -1,10 +1,11 @@
 // const authenticationBaseUrl = `http://localhost:8080`;
 // const customerBaseUrl = `http://localhost:8083`;
-const authenticationBaseUrl = `http://185.249.227.127:8010`;
-const customerBaseUrl = `http://185.249.227.127:8013`;
-const businessBaseUrl = `http://185.249.227.127:8011`
 // const customerPortalUrl = 'http://localhost:5174';
-const customerPortalUrl = 'http://185.249.227.127:9001';
+const authenticationBaseUrl = `https://authentication-service.mestechgh.com`;
+const customerBaseUrl = `https://customer-management-service.mestechgh.com`;
+const onboardServiceBaseUrl = `https://onboarding-service.mestechgh.com`
+const customerPortalUrl = 'https://client.mestechgh.com';
+
 
 const authenticationApiEndpoints = `${authenticationBaseUrl}/v1`;
 const customerApiEndpoints = `${customerBaseUrl}/v1`;
